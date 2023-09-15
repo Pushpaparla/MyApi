@@ -3,7 +3,10 @@ post:
     - Employees
   summary: Send Employee Data to TaxOA
   description: Receive the exact message you've sent
-  operationId: employees  
+  operationId: employees
+  security:
+    - api_key: []
+    - basic_auth: []
   responses:
     '200':
       description: OK
