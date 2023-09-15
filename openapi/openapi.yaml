@@ -50,7 +50,9 @@ servers:
   - url: https://example.com/api/v1
 paths:
   /employees:
-    $ref: paths/employees.yaml  
+    $ref: paths/employees.yaml
+  /postPathItemWithExamples:
+    $ref: paths/path-item-with-examples.yaml	
 components:
   securitySchemes:
     main_auth:
