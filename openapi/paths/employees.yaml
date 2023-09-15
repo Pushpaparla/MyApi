@@ -3,10 +3,7 @@ post:
     - Employees
   summary: Send Employee Data to TaxOA
   description: Receive the exact message you've sent
-  operationId: employees
-  security:
-    - api_key: []
-    - basic_auth: []
+  operationId: employees  
   responses:
     '200':
       description: OK
@@ -35,7 +32,7 @@ post:
       description: Unauthorized
   requestBody:
     content:
-      application/json:
+      application/x-www-form-urlencoded:
         schema:
           type: string
           example: Hello world!
