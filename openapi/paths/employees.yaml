@@ -54,48 +54,48 @@ post:
           first_name:
             # default is application/json
             type: string
-            format: name
+            format: first_name
           last_name:
             # default is application/json
             type: string
-            format: uuid
+            format: last_name
           dob:
             # default is application/json
             type: string
-            format: uuid
+            format: YYYY-MM-DD
           ssn:
             # default is application/json
             type: string
-            format: uuid
+            format: XXX-XX-XXXX ( 0 - 9 numbers)
           address1:
             # default is application/json
             type: string
-            format: uuid
+            format: address1
           address2:
             # default is application/json
             type: string
-            format: uuid
+            format: address2
           city:
             # default is application/json
             type: string
-            format: uuid
+            format: city
           state:
             # default is application/json
             type: string
-            format: uuid
+            format: state
           zip:
             # default is application/json
             type: string
-            format: uuid
+            format: 41031 (0-9 number)
           county:
             # default is application/json
             type: string
-            format: uuid
+            format: text
           country:
             # default is application/json
             type: string
-            format: uuid
+            format: text
           phone:
             # default is application/json
             type: string
-            format: uuid       
+            format: text       
