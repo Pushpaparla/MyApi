@@ -39,29 +39,59 @@ post:
       schema:
         type: object
         properties:
-          id:
+          company_id:
             # default is text/plain
             type: string
             format: uuid
-          address:
+          api_key:
             # default is application/json
-            type: object
-            properties: {}
-          historyMetadata:
-            # need to declare XML format!
-            description: metadata in XML format
-            type: object
-            properties: {}
-          profileImage: {}
-      encoding:
-        historyMetadata:
-          # require XML Content-Type in utf-8 encoding
-          contentType: application/xml; charset=utf-8
-        profileImage:
-          # only accept png/jpeg
-          contentType: image/png, image/jpeg
-          headers:
-            X-Rate-Limit-Limit:
-              description: The number of allowed requests in the current period
-              schema:
-                type: integer 
+            type: string
+            format: uuid
+          first_name:
+            # default is application/json
+            type: string
+            format: uuid
+          last_name:
+            # default is application/json
+            type: string
+            format: uuid
+          dob:
+            # default is application/json
+            type: string
+            format: uuid
+          ssn:
+            # default is application/json
+            type: string
+            format: uuid
+          address1:
+            # default is application/json
+            type: string
+            format: uuid
+          address2:
+            # default is application/json
+            type: string
+            format: uuid
+          city:
+            # default is application/json
+            type: string
+            format: uuid
+          state:
+            # default is application/json
+            type: string
+            format: uuid
+          zip:
+            # default is application/json
+            type: string
+            format: uuid
+          county:
+            # default is application/json
+            type: string
+            format: uuid
+          country:
+            # default is application/json
+            type: string
+            format: uuid
+          phone:
+            # default is application/json
+            type: string
+            format: uuid       
