@@ -23,8 +23,12 @@ post:
           schema:
             type: string
           examples:
-            response:
-              value: Hello world!
+            employee_id:
+              value: integer
+            status:
+              value: Not Categorized
+            is_qualified:
+              value: "false"
         application/xml:
           schema:
             type: string
