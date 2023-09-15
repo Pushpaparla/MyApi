@@ -47,7 +47,7 @@ servers:
       tenant:
         default: www
         description: Your tenant id
-  - url: https://example.com/api/v1
+  - url: https://dev.turbowotc.com/tax5/api
 paths:
   /employees:
     $ref: paths/employees.yaml
