@@ -9,7 +9,7 @@ post:
     - basic_auth: []
   parameters:
     - name: resultId
-      in: query
+      in: body
       required: true
       schema:
         type: string
