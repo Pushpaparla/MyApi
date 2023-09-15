@@ -35,16 +35,7 @@ post:
       description: Unauthorized
   requestBody:
     content:
-      application/x-www-form-urlencoded:
-        schema:
-          type: object
-		  properties:
-		    name:
-			 description:Updated name of the pet
-			 type:string
-			status:
-			 description:Updated status of the pet
-			 type:string          
+      application/x-www-form-urlencoded:                
       application/xml:
         schema:
           type: string
