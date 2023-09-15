@@ -50,11 +50,11 @@ post:
           api_key:
             # default is application/json
             type: string
-            format: uuid
+            format: key
           first_name:
             # default is application/json
             type: string
-            format: uuid
+            format: name
           last_name:
             # default is application/json
             type: string
