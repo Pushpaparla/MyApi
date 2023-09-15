@@ -26,7 +26,7 @@ get:
         type: boolean
   security:
     - main_auth:
-        - read:users
+        - 'read:users'
     - api_key: []
   responses:
     '200':
@@ -34,10 +34,22 @@ get:
       content:
         application/json:
           schema:
-            $ref: ../components/schemas/User.yaml
+            $ref: ../components/responses/200.yaml
           example:
             username: user1
             email: user@example.com
+    '201':
+      description: Created
+      content:
+        application/json:
+          schema:
+            $ref: ../components/responses/201.yaml
+    '202':
+      description: Accepted
+      content:
+        application/json:
+          schema:
+            $ref: ../components/responses/202.yaml
     '403':
       description: Forbidden
       $ref: ../components/responses/Problem.yaml
@@ -59,7 +71,7 @@ put:
         type: string
   security:
     - main_auth:
-        - write:users
+        - 'write:users'
   requestBody:
     content:
       application/json:
