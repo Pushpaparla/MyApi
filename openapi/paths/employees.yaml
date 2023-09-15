@@ -35,7 +35,12 @@ post:
       description: Unauthorized
   requestBody:
     content:
-      application/x-www-form-urlencoded:                
+      application/x-www-form-urlencoded:
+        schema:
+          type: string
+		  properties:
+		    name:
+          example: Hello world!
       application/xml:
         schema:
           type: string
