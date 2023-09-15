@@ -37,9 +37,7 @@ post:
     content:
       application/x-www-form-urlencoded:
         schema:
-          type: string
-		  properties:
-		    name:
+          type: string		  
           example: Hello world!
       application/xml:
         schema:
