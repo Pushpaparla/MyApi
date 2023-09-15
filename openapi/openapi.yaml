@@ -13,9 +13,6 @@ info:
     url: https://dev.turbowotc.com/tax5/backEnd/assets/images/logo.jpg
   description: >
     This is a TaxOA API server.
-tags:
-  - name: Employee
-    description: Send Employee Data to TaxOA.  
 servers:
   - url: https://dev.turbowotc.com/tax5/api/v2
 paths:
