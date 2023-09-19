@@ -296,7 +296,7 @@ post:
           ex_felony:
             # default is application/json
             type: string
-            format: text
+            format: integer
             description: Were you convicted of a felony or released from prison after a felony conviction during the year before you were hired? 1=yes, 0=no
           date_of_conviction:
             # default is application/json
