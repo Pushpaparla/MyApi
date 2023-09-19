@@ -92,7 +92,7 @@ post:
             # default is application/json
             type: string
             format: text
-            description: Employee state. Ex:- NY
+            description: Employee state. Ex:NY
           zip:
             # default is application/json
             type: string
@@ -127,27 +127,27 @@ post:
             # default is application/json
             type: string
             format: date 
-            description: Employee Date Applied For Job. Format:- YYYY-MM-DD     
+            description: Employee Date Applied For Job. Format:YYYY-MM-DD     
           offered_job_date:
             # default is application/json
             type: string
             format: date  
-            description: Employee Job Offered date. Format:- YYYY-MM-DD    
+            description: Employee Job Offered date. Format:YYYY-MM-DD    
           hire_date:
             # default is application/json
             type: string
             format: date    
-            description: Employee Job Hire Date. Format:- YYYY-MM-DD    
+            description: Employee Job Hire Date. Format:YYYY-MM-DD    
           start_date:
             # default is application/json
             type: string
             format: date   
-            description: Employee Job Start Date. Format:- YYYY-MM-DD   
+            description: Employee Job Start Date. Format:YYYY-MM-DD   
           end_date:
             # default is application/json
             type: string
             format: date   
-            description: Employee Job End Date. Format:- YYYY-MM-DD     
+            description: Employee Job End Date. Format:YYYY-MM-DD     
           position:
             # default is application/json
             type: string
@@ -167,7 +167,7 @@ post:
             # default is application/json
             type: string
             format: date
-            description: Most Recent Date Of Work(Rehire). Format:- YYYY-MM-DD       
+            description: Most Recent Date Of Work(Rehire). Format:YYYY-MM-DD       
           is_veteran:
             # default is application/json
             type: string
@@ -227,7 +227,7 @@ post:
             # default is application/json
             type: string
             format: text
-            description: SNAP (6 Months) Family Recipient State. Ex:- NY    
+            description: SNAP (6 Months) Family Recipient State. Ex:NY    
           certified_agency:
             # default is application/json
             type: string
@@ -292,7 +292,7 @@ post:
             # default is application/json
             type: string
             format: text
-            description: Family Member (TANF Recipient) State. Ex:- NY
+            description: Family Member (TANF Recipient) State. Ex:NY
           ex_felony:
             # default is application/json
             type: string
@@ -302,17 +302,17 @@ post:
             # default is application/json
             type: string
             format: date
-            description: Date Of Felony Conviction. Format:- YYYY-MM-DD
+            description: Date Of Felony Conviction. Format:YYYY-MM-DD
           date_of_release:
             # default is application/json
             type: string
             format: date
-            description: Date Prison Release(felony Conviction). Format:- YYYY-MM-DD
+            description: Date Prison Release(felony Conviction). Format:YYYY-MM-DD
           fed_state_convict:
             # default is application/json
             type: string
             format: text
-            description: Convict Type (State Or Federal). Ex:- federal  or  state
+            description: Convict Type (State Or Federal). Ex:federal  or  state
           ssn_benefits:
             # default is application/json
             type: string
@@ -332,12 +332,12 @@ post:
             # default is application/json
             type: string
             format: date
-            description: Unemployment Start Date. Format:- YYYY-MM-DD
+            description: Unemployment Start Date. Format:YYYY-MM-DD
           unemployment_end:
             # default is application/json
             type: string
             format: date
-            description: Unemployment End Date. Format:- YYYY-MM-DD
+            description: Unemployment End Date. Format:YYYY-MM-DD
           unemployment_compensation:
             # default is application/json
             type: string
@@ -392,4 +392,4 @@ post:
             # default is application/json
             type: string
             format: text
-            description: <If age between 16-20> Preferred method of contact by the Department of Labor (email will be used by default). Ex:- Email  or  Phone | [youthworks eligible (age 16-20,  NY employee address)]
+            description: <If age between 16-20> Preferred method of contact by the Department of Labor (email will be used by default). Ex:Email  or  Phone | [youthworks eligible (age 16-20,  NY employee address)]
